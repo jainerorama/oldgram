@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.81rem;
+    background-color: #dfd5d5;
+    margin-top: 30px;
+}
+
+/* Typography */
+
+.bold-small {
+    font-weight: 700;
+}
+
+.small-text {
+    font-size: 0.75rem;
+}
+
+/* layout */
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+
+}
+
+.logo {
+    width: 127px;
+}
+
+.round-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.img-post {
+    width: 100%;
+}
+
+.img-post,
+.icons-container img {
+    cursor: pointer;
+}
+
+.spacing-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+/* User Section */
+
+.user-info,
+.user-content {
+    padding: 0.625rem;
+}
+
+.user-content {}
+
+.user-info {
+    display: flex;
+    justify-content: start;
+}
+
+.info {
+    margin-top: 4px;
+    margin-left: 7px;
+}
+
+.info p {
+    margin: 0;
+}
+
+.fancier-border {
+    border-bottom: 1px solid #C6C6C6;
+}
+
+/* ICONS */
+
+.icons-container img {
+    width: 1.437rem;
+    height: 1.437rem;
+    margin-top: 1rem;
+    margin-right: .5rem;
+}
+
+.icons-container img:hover,
+.icons-container img:focus {
+    opacity: 0.8;
+}
